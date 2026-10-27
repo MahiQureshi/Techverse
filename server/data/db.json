@@ -39,6 +39,33 @@
   ],
   "achievements": [
     {
+      "id": "ach_1793096711810",
+      "studentId": "usr_student_1",
+      "title": "Meta Full-Stack Engineering Professional Certificate",
+      "category": "Certifications",
+      "issuer": "Meta / Coursera",
+      "dateEarned": "2026-10-27",
+      "credentialId": "META-FS-881903",
+      "credentialUrl": "https://coursera.org/verify/professional-cert/META-FS-881903",
+      "demoUrl": "",
+      "description": "Comprehensive hands-on training spanning modern responsive frontend applications, Express middleware backend architecture, relational database indexing, and automated unit testing suites.",
+      "skills": [
+        "React",
+        "Node.js",
+        "REST APIs",
+        "SQL",
+        "System Architecture"
+      ],
+      "status": "Pending",
+      "verifiedBy": null,
+      "verifiedAt": null,
+      "verificationMethod": "Pending Institutional / Issuer Review",
+      "evidence": "Official digital certificate badge reference with verified credential link.",
+      "evidenceCompleteness": 5,
+      "contributionRole": "Individual Contributor",
+      "expirationDate": "Never"
+    },
+    {
       "id": "ach_1",
       "studentId": "usr_student_1",
       "title": "Deep Learning & Neural Networks Specialization",
@@ -174,10 +201,10 @@
         "Serverless",
         "DynamoDB"
       ],
-      "status": "Pending",
-      "verifiedBy": null,
-      "verifiedAt": null,
-      "verificationMethod": "Awaiting automated Credential ID validation with Credly / AWS API",
+      "status": "Verified",
+      "verifiedBy": "Dr. Sunita Raman (Dean of Academic Affairs)",
+      "verifiedAt": "2026-10-27",
+      "verificationMethod": "Institutional Review Board Audit & Credential Match",
       "evidence": "AWS Certificate PDF badge and Credly verification link submitted.",
       "evidenceCompleteness": 5
     },
@@ -256,7 +283,7 @@
         "relationshipGraph": true,
         "verificationAudits": true
       },
-      "viewsCount": 148,
+      "viewsCount": 152,
       "createdAt": "2026-08-20"
     },
     {
@@ -291,15 +318,15 @@
   ],
   "verificationQueue": [
     {
-      "id": "vq_1",
-      "achievementId": "ach_6",
+      "id": "vq_1793096711810",
+      "achievementId": "ach_1793096711810",
       "studentName": "Aarav Sharma",
       "studentId": "usr_student_1",
-      "achievementTitle": "AWS Certified Solutions Architect - Associate",
+      "achievementTitle": "Meta Full-Stack Engineering Professional Certificate",
       "category": "Certifications",
-      "issuer": "Amazon Web Services (AWS)",
-      "submittedDate": "2026-09-29",
-      "evidenceDetails": "Certificate Badge ID: AWS-SAA-8849201-USAP with verification link",
+      "issuer": "Meta / Coursera",
+      "submittedDate": "2026-10-27",
+      "evidenceDetails": "Official digital certificate badge reference with verified credential link.",
       "status": "Pending",
       "notes": ""
     },
@@ -318,6 +345,17 @@
     }
   ],
   "reviewHistory": [
+    {
+      "id": "rh_1793096283235",
+      "achievementId": "ach_6",
+      "achievementTitle": "AWS Certified Solutions Architect - Associate",
+      "decision": "Approved",
+      "reviewerName": "Dr. Sunita Raman",
+      "reviewerRole": "Dean of Academic Affairs",
+      "timestamp": "27/10/2026, 3:48:03 pm",
+      "notes": "Submission approved after audit.",
+      "verificationMethod": "Institutional Review Board Audit & Credential Match"
+    },
     {
       "id": "rh_1",
       "achievementId": "ach_1",
